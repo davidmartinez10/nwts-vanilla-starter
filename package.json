@@ -1,0 +1,29 @@
+{
+  "name": "nwts-vanilla-starter",
+  "displayName": "NW.ts Vanilla Starter",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "description": "NW.js starter template with Typescript and NW.ts-Tools. It works with the VSCode debugger out-of-the-box.",
+  "scripts": {
+    "start": "npm run dev-hmr",
+    "dev-hmr": "zx scripts/dev-hmr.mjs",
+    "patch-codecs": "nwts-patch-codecs",
+    "clean": "zx scripts/clean.mjs",
+    "typecheck": "tsc --noEmit",
+    "build": "zx scripts/build.mjs",
+    "compile-to-bin": "zx scripts/compile.mjs",
+    "package": "zx scripts/package.mjs"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "@types/chrome": "^0.0.197",
+    "@types/node": "^18.8.4",
+    "@types/nw.js": "^0.13.16",
+    "nw": "0.65.1-sdk",
+    "nwts-tools": "^0.3.2",
+    "typescript": "^4.6.4",
+    "vite": "^3.1.0",
+    "zx": "^7.1.1"
+  }
+}
