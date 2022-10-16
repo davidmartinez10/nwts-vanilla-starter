@@ -5,7 +5,7 @@ specifiers:
   '@types/node': ^18.8.4
   '@types/nw.js': ^0.13.16
   nw: 0.65.1-sdk
-  nwts-tools: ^0.3.2
+  nwts-tools: ^0.3.5
   typescript: ^4.6.4
   vite: ^3.1.0
   zx: ^7.1.1
@@ -15,7 +15,7 @@ dependencies:
   '@types/node': 18.8.4
   '@types/nw.js': 0.13.16
   nw: 0.65.1-sdk
-  nwts-tools: 0.3.2
+  nwts-tools: 0.3.5
   typescript: 4.8.4
   vite: 3.1.7
   zx: 7.1.1
@@ -1120,9 +1120,10 @@ packages:
       yargs: 3.32.0
     dev: false
 
-  /nwts-tools/0.3.2:
-    resolution: {integrity: sha512-2wWVh/CO98FSDy3Ev0xly9njDCVbB8otsKUOmJPdY90i4TmO39CF8O2JMYkw3tSr/Z3K2uVV2o2pJThQvF2gXA==}
+  /nwts-tools/0.3.5:
+    resolution: {integrity: sha512-AQXoxWt0INrR899UzKg0aub9l/EWlIOLeu+UfhwtCeyAgML8Iuf/vLv0DaRBZaiAv3YZRP0AkcEu9vjIQ87KHA==}
     hasBin: true
+    requiresBuild: true
     dependencies:
       got: 12.5.2
       zx: 7.1.1
